@@ -1,0 +1,1 @@
+gcc main.c -F ~/Library/Frameworks -framework SDL2 -I ./SDL2.framework/Headers

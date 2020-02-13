@@ -1,25 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft.h                                               :+:      :+:    :+:   */
+/*   test_texture.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: chbelan <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/12 14:40:53 by chbelan           #+#    #+#             */
-/*   Updated: 2020/02/13 16:07:48 by chbelan          ###   ########.fr       */
+/*   Created: 2020/02/13 14:16:43 by chbelan           #+#    #+#             */
+/*   Updated: 2020/02/13 14:17:20 by chbelan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_H
-#define FT_H
+#include "../inclues/ft.h"
 
-#include <SDL.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-
-void				exit_window(void);
-void				exit_renderer(void);
-int					ft_exit(char *str);
-
-#endif
+int			main(int argc, char **argv)
+{
+	return (0);
+}
